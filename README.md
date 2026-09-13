@@ -30,10 +30,21 @@ To run it directly:
 ./runner
 ```
 
-## Usage
-Simply run `runner` from your terminal or bind it to a hotkey in your window manager (e.g., Hyprland).
+## Controls
+- **Typing:** Instantly search for applications or system files.
+- **Arrow Keys (`Up`/`Down`/`Left`/`Right`):** Navigate through the grid or list of results.
+- **Enter:** Launch the currently selected application or open the file.
+- **Tab:** Manually expand or collapse the results grid.
+- **Escape:** Close the launcher.
 
-To trigger the launcher via IPC socket (for example, via a hotkey), you can send the "show" command to its socket:
-```bash
-echo "show" | socat - UNIX-CLIENT:~/.config/SYSui/runner.sock
+## Hyprland Integration
+To seamlessly integrate Runner into Hyprland and trigger it with a hotkey (e.g., `SUPER + SPACE`), add the following lines to your `hyprland.conf`:
+
+```ini
+# Start the daemon in the background on startup
+exec-once = /path/to/Runner/runner
+
+# Bind a hotkey to send the "show" signal to the IPC socket
+bind = SUPER, SPACE, exec, echo "show" | socat - UNIX-CLIENT:~/.config/SYSui/runner.sock
 ```
+*(Make sure to replace `/path/to/Runner/runner` with the actual path to your compiled binary or its installation location, and ensure you have `socat` installed).*
