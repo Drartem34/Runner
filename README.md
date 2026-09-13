@@ -1,3 +1,8 @@
+
+<img width="3840" height="2160" alt="2026-09-13_22-55-47" src="https://github.com/user-attachments/assets/b14e4d33-cfb9-4fe8-95b5-0a38484f67d8" />
+<img width="3840" height="2160" alt="2026-09-13_22-56-12" src="https://github.com/user-attachments/assets/67a97431-610f-472e-a568-4a0139d1a4d5" />
+
+
 # Runner
 
 *(🇺🇦 Українська версія нижче / Ukrainian version below)*
