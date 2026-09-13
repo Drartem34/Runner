@@ -1,0 +1,4 @@
+runner
+runner_osd
+*.o
+.DS_Store
