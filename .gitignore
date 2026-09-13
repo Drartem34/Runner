@@ -1,4 +1,4 @@
-runner
+# runner binary is explicitly tracked
 runner_osd
 *.o
 .DS_Store
