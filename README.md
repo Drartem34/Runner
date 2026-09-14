@@ -2,6 +2,21 @@
 <img width="3840" height="2160" alt="2026-09-13_22-56-12" src="https://github.com/user-attachments/assets/67a97431-610f-472e-a568-4a0139d1a4d5" />
 <img width="3840" height="2160" alt="2026-09-13_22-55-47" src="https://github.com/user-attachments/assets/b14e4d33-cfb9-4fe8-95b5-0a38484f67d8" />
 
+## 🤝 Contributing & Community
+
+Runner is fully open-source, and I want to push this project as far as possible. If you're into modern Wayland/Hyprland setups and clean C++/GTK4 code, your help is very welcome!
+
+Whether it's optimizing performance, cleaning up architecture, adding new providers/modes (like custom plugins or clipboard history), or fixing edge cases — PRs, issue reports, and architecture discussions are super appreciated.
+
+### How to help:
+* **Code:** Grab an issue, optimize GTK4 drawing, or refactor C++ logic.
+* **Features:** Propose new features or build integrations with other Wayland tools.
+* **Themes:** Share cool CSS snippets and layouts.
+* **Feedback:** Found a bug or micro-stutter? Open an issue with your setup details!
+
+Drop a ⭐ if you dig the vibe, submit a PR, and let’s make the cleanest, fastest launcher for Hyprland together.
+
+
 # Runner
 
 *(🇺🇦 Українська версія нижче / Ukrainian version below)*
